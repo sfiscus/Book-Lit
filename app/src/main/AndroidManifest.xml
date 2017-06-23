@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sfiscusdevelopment.sfiscus.booklit" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".LoginCredentials"
+        android:allowBackup="true"
+        android:icon="@mipmap/book_lit_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".splashScreen.SplashScreenActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginActivity"
+                  android:theme="@style/AppTheme.BrandedLaunch">
+        </activity>
+
+        <activity
+            android:name=".bookLibrary.BookLibraryActivity"
+            android:label="@string/main_activity_title"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".searchGoodReads.SearchActivity"
+            android:label="@string/search_activity_title"
+            android:parentActivityName=".bookLibrary.BookLibraryActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sfiscusdevelopment.sfiscus.booklit.bookLibrary.BookLibraryActivity"/>
+        </activity>
+
+        <receiver android:name=".widgets.BooksWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                       android:resource="@xml/widget_info"/>
+        </receiver>
+
+        <service android:name=".widgets.BooksWidgetService"
+                 android:permission="android.permission.BIND_REMOTEVIEWS"/>
+    </application>
+
+</manifest>

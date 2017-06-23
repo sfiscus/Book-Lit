@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "364583460714",
+    "firebase_url": "https://book-lit-4b32e.firebaseio.com",
+    "project_id": "book-lit-4b32e",
+    "storage_bucket": "book-lit-4b32e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364583460714:android:475a7c9515af4a54",
+        "android_client_info": {
+          "package_name": "com.sfiscusdevelopment.sfiscus.booklit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364583460714-ng1ppme3dbudnkmlumcsibgkevv0pkgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sfiscusdevelopment.sfiscus.booklit",
+            "certificate_hash": "508f2b476a9046d41e96eb4424f58da9d349bf5f"
+          }
+        },
+        {
+          "client_id": "364583460714-arjp84q9m5es67in74h8v8qlcg0ga3vn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sfiscusdevelopment.sfiscus.booklit",
+            "certificate_hash": "d8e5b135f0846d4dd1bbc9f1fdc85c7f73c8778a"
+          }
+        },
+        {
+          "client_id": "364583460714-amoluuc8p18vvda1bufj3nj3lrmn0sot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOsVCVywKtmdI3_kWjL91L_8uC7ae3rH0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364583460714-amoluuc8p18vvda1bufj3nj3lrmn0sot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

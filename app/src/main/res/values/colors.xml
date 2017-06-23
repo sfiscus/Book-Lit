@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2d5274</color>
+    <color name="colorPrimaryDark">#2C3E50</color>
+    <color name="colorPrimaryLight">#9fa8a3</color>
+    <color name="colorAccent">#1f7ba2</color>
+    <color name="colorAccentLight">#e3e3e3</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="blue_grey_700">#455A64</color>
+    <color name="blue_grey_900">#263238</color>
+
+    <color name="colorPrimaryBlue">#89bdd3</color>
+    <color name="colorPrimaryDarkGrey">#464646</color>
+    <color name="colorPrimaryLightGrey">#e3e3e3</color>
+    <color name="colorPrimaryLightBlue">#9ad3de</color>
+    <color name="colorPrimaryDarkBlue">#1f7ba2</color>
+    <color name="colorPrimaryNavy">#2d5274</color>
+    <color name="colorPrimaryRed">#c04a40</color>
+    <color name="gray_light">#bdbdbd</color>
+
+    <color name="colorPrimaryGreen">#c5d5cb</color>
+    <color name="colorPrimaryStormCloud">#c4c4c4</color>
+    <color name="colorPrimaryBeige">#e3e0cf</color>
+    <color name="colorPrimaryCream">#fff</color>
+
+    <color name="widget_background_transparent_color">#88998f82</color>
+
+</resources>

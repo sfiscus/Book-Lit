@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/widget_background_transparent_color">
+
+<TextView
+    android:id="@+id/widget_title"
+    android:layout_width="match_parent"
+    android:layout_height="78dp"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    android:paddingLeft="24dp"
+    android:paddingStart="24dp"
+    android:paddingRight="24dp"
+    android:paddingEnd="24dp"
+    android:text="@string/list_top_reads"
+    android:textColor="@color/colorWhite"
+    android:textSize="48sp"
+    android:textStyle="bold"/>
+
+<ListView
+    android:id="@+id/widget_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/widget_empty_view"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:textColor="@color/colorWhite"
+          android:textStyle="bold"
+          android:text="@string/no_book_message"
+          android:textSize="48sp"
+          android:background="@color/widget_background_transparent_color"/>
+
+</LinearLayout>

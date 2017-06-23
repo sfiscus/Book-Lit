@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true">
+
+    <TextView
+        style="@style/ModalButton"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:contentDescription="@string/search_activity_add_to"
+        android:text="@string/search_activity_add_to"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        style="@style/ModalButton"
+        android:id="@+id/btn_reading"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:contentDescription="@string/search_activity_reading"
+        android:nextFocusDown="@id/btn_reading"
+        android:text="@string/search_activity_reading"
+        android:textStyle="bold"/>
+
+    <TextView
+        style="@style/ModalButton"
+        android:id="@+id/btn_past_reads"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:contentDescription="@string/search_activity_past_reads"
+        android:nextFocusUp="@id/btn_reading"
+        android:text="@string/search_activity_past_reads"
+        android:textStyle="bold"/>
+
+    <TextView
+        style="@style/ModalButton"
+        android:id="@+id/btn_future_reads"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:contentDescription="@string/search_activity_future_reads"
+        android:nextFocusUp="@id/btn_past_reads"
+        android:text="@string/search_activity_future_reads"
+        android:textStyle="bold"/>
+
+    <TextView
+        style="@style/ModalButton"
+        android:id="@+id/btn_top_reads"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:contentDescription="@string/search_activity_wishlist"
+        android:nextFocusUp="@id/btn_future_reads"
+        android:text="@string/search_activity_wishlist"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

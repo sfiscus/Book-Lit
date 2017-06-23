@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/book_add_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+    android:focusable="true">
+
+    <TextView
+        style="@style/ModalButton"
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:contentDescription="@string/book_list_modal_delete"
+        android:text="@string/book_list_modal_delete"
+        android:textSize="12sp"
+        android:textColor="@color/colorPrimaryRed" />
+
+    <TextView
+        style="@style/ModalButton"
+        android:id="@+id/btn_reading"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        tools:text="@string/search_activity_reading" />
+
+    <TextView
+        style="@style/ModalButton"
+        android:id="@+id/btn_past_reads"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        tools:text="@string/search_activity_past_reads" />
+
+    <TextView
+        style="@style/ModalButton"
+        android:id="@+id/btn_future_reads"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        tools:text="@string/search_activity_future_reads" />
+
+    <TextView
+        style="@style/ModalButton"
+        android:id="@+id/btn_top_reads"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        tools:text="@string/search_activity_top_ten" />
+
+</LinearLayout>
